@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,14 +10,10 @@
     <div class="container">
         <h2>Ingrese la contraseña:</h2>
         <input type="password" id="password" placeholder="Contraseña">
-        <button id="loginButton">Ingresar</button>
+        <button onclick="checkPassword()">Ingresar</button>
     </div>
 
     <script src="script.js"></script>
-    <script>
-        // Asignación de eventos en lugar de onclick en línea
-        document.getElementById("loginButton").addEventListener("click", checkPassword);
-    </script>
 </body>
 </html>
 
