@@ -1,4 +1,14 @@
-﻿// Cambia la URL del servidor a la que estés utilizando
+function checkPassword() {
+    var password = document.getElementById("password").value;
+
+    if (password === "Coreju2023") {
+        window.location.href = "dashboard.html";
+    } else {
+        alert("Contraseña incorrecta. Inténtalo de nuevo.");
+    }
+}
+
+// Cambia la URL del servidor a la que estés utilizando
 const API_URL = ''https://juanzumaxl.github.io/coreju/'';
 
 function submitRegistration() {
