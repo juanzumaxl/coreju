@@ -1,3 +1,13 @@
+const express = require('express');
+const cors = require('cors');
+
+const app = express();
+
+// Permitir solicitudes desde cualquier origen
+app.use(cors());
+
+// Resto de la configuración del servidor
+
 // Cambia la URL del servidor a la de GitHub Pages
 const API_URL = 'https://juanzumaxl.github.io/coreju/api/participants';
 
