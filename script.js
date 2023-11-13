@@ -1,5 +1,5 @@
 ﻿// Cambia la URL del servidor a la que estés utilizando
-const API_URL = ''https://github.com/juanzumaxl/coreju.git'';
+const API_URL = ''https://juanzumaxl.github.io/coreju/'';
 
 function submitRegistration() {
     var fullName = document.getElementById("fullName").value;
