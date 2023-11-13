@@ -1,50 +1,18 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coreju Event - Registrados</title>
+    <title>Participantes Registrados - Coreju</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Participantes Registrados</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Nombre Completo</th>
-                    <th>Lugar de Procedencia</th>
-                    <th>Número de Habitación</th>
-                    <th>Número de Teléfono</th>
-                    <th>Correo Electrónico</th>
-                </tr>
-            </thead>
-            <tbody id="registeredParticipants">
-                <!-- Aquí se mostrarán dinámicamente los participantes registrados -->
-            </tbody>
-        </table>
-        <a href="dashboard.html"><button>Volver al Panel de Control</button></a>
-    </div>
+    <h1>Participantes Registrados - Coreju</h1>
+    <table id="registeredParticipants">
+        <!-- Contenido generado dinámicamente por JavaScript -->
+    </table>
 
     <script src="script.js"></script>
-    <script>
-        // Puedes cargar dinámicamente los datos de los participantes registrados aquí
-        // Por ahora, mostraré un ejemplo estático.
-        var registeredParticipants = [
-            { fullName: "Juan Perez", location: "Ciudad X", roomNumber: "101", phoneNumber: "123456789", email: "juan@example.com" },
-            { fullName: "Ana Rodriguez", location: "Ciudad Y", roomNumber: "202", phoneNumber: "987654321", email: "ana@example.com" }
-        ];
-
-        var participantsTable = document.getElementById("registeredParticipants");
-
-        registeredParticipants.forEach(function (participant) {
-            var row = participantsTable.insertRow();
-            row.insertCell(0).innerText = participant.fullName;
-            row.insertCell(1).innerText = participant.location;
-            row.insertCell(2).innerText = participant.roomNumber;
-            row.insertCell(3).innerText = participant.phoneNumber;
-            row.insertCell(4).innerText = participant.email;
-        });
-    </script>
 </body>
 </html>
+
