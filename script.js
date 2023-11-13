@@ -1,5 +1,5 @@
 ﻿// Cambia la URL del servidor a la que estés utilizando
-const API_URL = ''mongodb+srv://Coreju:Coreju2023@corejucluster.wjl4yiy.mongodb.net/?retryWrites=true&w=majority'';
+const API_URL = ''https://github.com/juanzumaxl/coreju.git'';
 
 function submitRegistration() {
     var fullName = document.getElementById("fullName").value;
